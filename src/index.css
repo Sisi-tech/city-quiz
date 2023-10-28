@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  left: 0;
+  right: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/Background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container{
+  margin: 200px;
+  box-shadow: 2px 2px 4px rgb(126, 147, 175);
+  width: 580px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(228, 250, 253, 0.3);
+  line-height: 2.0;
+  padding: 4px;
+}
+.container h1{
+  font-size: 32px;
+}
+.container p{
+  font-size: 28px;
+}
+.container textarea{
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color:aliceblue;
+  padding-left: 8px;
+  width: 360px;
+  border: none;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn{
+  padding: 6px 6px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: rgb(146, 253, 251);
+}
+.guess-right{
+  text-align: center;
+  margin-top: 300px;
+}
